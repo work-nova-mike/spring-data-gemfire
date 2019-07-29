@@ -1,0 +1,816 @@
+
+[info 2019/07/28 18:03:24.145 CDT locator <main> tid=0x1] 
+  ---------------------------------------------------------------------------
+  
+    Copyright (C) 1997-2016 Pivotal Software, Inc. All rights reserved. This
+    product is protected by U.S. and international copyright and intellectual
+    property laws. Pivotal products are covered by one or more patents listed
+    at http://www.pivotal.io/patents.  Pivotal is a registered trademark
+    of trademark of Pivotal Software, Inc. in the United States and/or other
+    jurisdictions.  All other marks and names mentioned herein may be
+    trademarks of their respective companies.
+  
+  ---------------------------------------------------------------------------
+  Java version:   8.2.1 build 18207 05/04/2016 16:48:01 PDT javac 1.7.0_79
+  Native version: 6.5  06/02/2010 11:16:48 PDT optimized i386 Linux 2.4.21-47.EL
+  Source revision: d0baa293ed00397177eda6054ddd07d4bbfdf4b8
+  Source repository: gemfire821X_maint
+  Running on: /172.17.0.1, 4 cpu(s), amd64 Linux 4.15.0-20-generic
+  Process ID: 5339
+  User: wsangel
+  Current dir: /home/wsangel/Documentos/workspace/gitHub/mike/spring-data-gemfire/locator
+  Home dir: /home/wsangel
+  Command Line Parameters:
+    -Dgemfire.enable-cluster-configuration=true
+    -Dgemfire.load-cluster-configuration-from-dir=false
+    -Dgemfire.launcher.registerSignalHandlers=true
+    -Djava.awt.headless=true
+    -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+  Class Path:
+    /home/wsangel/toolsDeveloper/Pivotal_GemFire_821_b18207_Linux/lib/gemfire.jar
+    /home/wsangel/toolsDeveloper/Pivotal_GemFire_821_b18207_Linux/lib/locator-dependencies.jar
+  Library Path:
+    /usr/java/packages/lib/amd64
+    /usr/lib64
+    /lib64
+    /lib
+    /usr/lib
+  System Properties:
+      Locator.forceLocatorDMType = true
+      awt.toolkit = sun.awt.X11.XToolkit
+      file.encoding = UTF-8
+      file.encoding.pkg = sun.io
+      file.separator = /
+      gemfire.enable-cluster-configuration = true
+      gemfire.launcher.registerSignalHandlers = true
+      gemfire.load-cluster-configuration-from-dir = false
+      java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+      java.awt.headless = true
+      java.awt.printerjob = sun.print.PSPrinterJob
+      java.class.version = 52.0
+      java.endorsed.dirs = /home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/endorsed
+      java.ext.dirs = /home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/ext:/usr/java/packages/lib/ext
+      java.home = /home/wsangel/toolsDeveloper/jdk1.8.0_201/jre
+      java.io.tmpdir = /tmp
+      java.rmi.server.randomIDs = true
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.8.0_201-b09
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.8
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.8.0_201
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.8
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 25.201-b09
+      jna.platform.library.path = /usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/lib64:/usr/lib:/lib
+      jnidispatch.path = /tmp/jna-1624068773/jna7461184278819794520.tmp
+      line.separator = 
+  
+      log4j.configurationFile = jar:file:/home/wsangel/toolsDeveloper/Pivotal_GemFire_821_b18207_Linux/lib/gemfire.jar!/com/gemstone/gemfire/internal/logging/log4j/log4j2-default.xml
+      os.version = 4.15.0-20-generic
+      path.separator = :
+      sun.arch.data.model = 64
+      sun.boot.class.path = /home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/resources.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/rt.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/sunrsasign.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/jsse.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/jce.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/charsets.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/jfr.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/classes
+      sun.boot.library.path = /home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/amd64
+      sun.cpu.endian = little
+      sun.cpu.isalist = 
+      sun.desktop = gnome
+      sun.io.unicode.encoding = UnicodeLittle
+      sun.java.command = com.gemstone.gemfire.distributed.LocatorLauncher start locator --port=10334
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = UTF-8
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.os.patch.level = unknown
+      sun.rmi.dgc.server.gcInterval = 9223372036854775806
+      user.country = MX
+      user.language = es
+      user.timezone = America/Mexico_City
+  Log4J 2 Configuration:
+      Setting log4j.configurationFile to specify log4j configuration file: 'jar:file:/home/wsangel/toolsDeveloper/Pivotal_GemFire_821_b18207_Linux/lib/gemfire.jar!/com/gemstone/gemfire/internal/logging/log4j/log4j2-default.xml'
+  ---------------------------------------------------------------------------
+  
+
+[info 2019/07/28 18:03:24.563 CDT locator <main> tid=0x1] Starting peer location for Distribution Locator on 172.17.0.1[10334]
+
+[info 2019/07/28 18:03:24.565 CDT locator <main> tid=0x1] Starting Distribution Locator on 172.17.0.1[10334]
+
+[info 2019/07/28 18:03:25.579 CDT locator <main> tid=0x1] Starting distributed system
+
+[info 2019/07/28 18:03:25.591 CDT locator <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  enable-cluster-configuration=true
+  load-cluster-configuration-from-dir=false
+  ### GemFire Properties defined with api ###
+  cache-xml-file=
+  locators=172.17.0.1[10334]
+  name=locator
+  ### GemFire Properties defined with launcher ###
+  log-file=locator.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cluster-configuration-dir=.
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=.
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  durable-client-id=
+  durable-client-timeout=300
+  enable-network-partition-detection=false
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=true
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl=false
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  license-application-cache=
+  license-data-management=
+  license-server-timeout=10000
+  license-working-dir=
+  locator-wait-time=0
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-enabled=false
+  ssl-protocols=any
+  ssl-require-authentication=true
+  start-dev-rest-api=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  use-cluster-configuration=true
+  user-command-packages=
+  writable-working-dir=
+  
+
+[info 2019/07/28 18:03:25.654 CDT locator <main> tid=0x1] 
+  ---------------------------------------------------------------------------
+  
+    Copyright (C) 1997-2016 Pivotal Software, Inc. All rights reserved. This
+    product is protected by U.S. and international copyright and intellectual
+    property laws. Pivotal products are covered by one or more patents listed
+    at http://www.pivotal.io/patents.  Pivotal is a registered trademark
+    of trademark of Pivotal Software, Inc. in the United States and/or other
+    jurisdictions.  All other marks and names mentioned herein may be
+    trademarks of their respective companies.
+  
+  ---------------------------------------------------------------------------
+  Java version:   8.2.1 build 18207 05/04/2016 16:48:01 PDT javac 1.7.0_79
+  Native version: 6.5  06/02/2010 11:16:48 PDT optimized i386 Linux 2.4.21-47.EL
+  Source revision: d0baa293ed00397177eda6054ddd07d4bbfdf4b8
+  Source repository: gemfire821X_maint
+  Running on: 172.17.0.1/172.17.0.1, 4 cpu(s), amd64 Linux 4.15.0-20-generic
+  Process ID: 5339
+  User: wsangel
+  Current dir: /home/wsangel/Documentos/workspace/gitHub/mike/spring-data-gemfire/locator
+  Home dir: /home/wsangel
+  Command Line Parameters:
+    -Dgemfire.enable-cluster-configuration=true
+    -Dgemfire.load-cluster-configuration-from-dir=false
+    -Dgemfire.launcher.registerSignalHandlers=true
+    -Djava.awt.headless=true
+    -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+  Class Path:
+    /home/wsangel/toolsDeveloper/Pivotal_GemFire_821_b18207_Linux/lib/gemfire.jar
+    /home/wsangel/toolsDeveloper/Pivotal_GemFire_821_b18207_Linux/lib/locator-dependencies.jar
+  Library Path:
+    /usr/java/packages/lib/amd64
+    /usr/lib64
+    /lib64
+    /lib
+    /usr/lib
+  System Properties:
+      Locator.forceLocatorDMType = true
+      awt.toolkit = sun.awt.X11.XToolkit
+      file.encoding = UTF-8
+      file.encoding.pkg = sun.io
+      file.separator = /
+      gemfire.enable-cluster-configuration = true
+      gemfire.launcher.registerSignalHandlers = true
+      gemfire.load-cluster-configuration-from-dir = false
+      java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+      java.awt.headless = true
+      java.awt.printerjob = sun.print.PSPrinterJob
+      java.class.version = 52.0
+      java.endorsed.dirs = /home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/endorsed
+      java.ext.dirs = /home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/ext:/usr/java/packages/lib/ext
+      java.home = /home/wsangel/toolsDeveloper/jdk1.8.0_201/jre
+      java.io.tmpdir = /tmp
+      java.rmi.server.randomIDs = true
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.8.0_201-b09
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.8
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.8.0_201
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.8
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 25.201-b09
+      jna.platform.library.path = /usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/lib64:/usr/lib:/lib
+      jnidispatch.path = /tmp/jna-1624068773/jna7461184278819794520.tmp
+      line.separator = 
+  
+      log4j.configurationFile = jar:file:/home/wsangel/toolsDeveloper/Pivotal_GemFire_821_b18207_Linux/lib/gemfire.jar!/com/gemstone/gemfire/internal/logging/log4j/log4j2-default.xml
+      os.version = 4.15.0-20-generic
+      p2p.joinTimeout = 5000
+      p2p.useSSL = false
+      path.separator = :
+      sun.arch.data.model = 64
+      sun.boot.class.path = /home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/resources.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/rt.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/sunrsasign.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/jsse.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/jce.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/charsets.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/jfr.jar:/home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/classes
+      sun.boot.library.path = /home/wsangel/toolsDeveloper/jdk1.8.0_201/jre/lib/amd64
+      sun.cpu.endian = little
+      sun.cpu.isalist = 
+      sun.desktop = gnome
+      sun.io.unicode.encoding = UnicodeLittle
+      sun.java.command = com.gemstone.gemfire.distributed.LocatorLauncher start locator --port=10334
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = UTF-8
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.os.patch.level = unknown
+      sun.rmi.dgc.server.gcInterval = 9223372036854775806
+      user.country = MX
+      user.language = es
+      user.timezone = America/Mexico_City
+  Log4J 2 Configuration:
+      Setting log4j.configurationFile to specify log4j configuration file: 'jar:file:/home/wsangel/toolsDeveloper/Pivotal_GemFire_821_b18207_Linux/lib/gemfire.jar!/com/gemstone/gemfire/internal/logging/log4j/log4j2-default.xml'
+  ---------------------------------------------------------------------------
+  
+
+[info 2019/07/28 18:03:25.657 CDT locator <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  enable-cluster-configuration=true
+  load-cluster-configuration-from-dir=false
+  ### GemFire Properties defined with api ###
+  cache-xml-file=
+  locators=172.17.0.1[10334]
+  name=locator
+  ### GemFire Properties defined with launcher ###
+  log-file=locator.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cluster-configuration-dir=.
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=.
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  durable-client-id=
+  durable-client-timeout=300
+  enable-network-partition-detection=false
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=true
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl=false
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  license-application-cache=
+  license-data-management=
+  license-server-timeout=10000
+  license-working-dir=
+  locator-wait-time=0
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-enabled=false
+  ssl-protocols=any
+  ssl-require-authentication=true
+  start-dev-rest-api=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  use-cluster-configuration=true
+  user-command-packages=
+  writable-working-dir=
+  
+
+[info 2019/07/28 18:03:25.806 CDT locator <main> tid=0x1] GemFire P2P Listener started on  tcp:///172.17.0.1:55772
+
+[info 2019/07/28 18:03:25.935 CDT locator <PingSender> tid=0x2d] locator 172.17.0.1(null)<v0>:10334 member address is 172.17.0.1(locator:5339:locator):10875
+
+[info 2019/07/28 18:03:32.945 CDT locator <PingSender> tid=0x3e] locator 172.17.0.1(null)<v0>:10334 member address is 172.17.0.1(locator:5339:locator):10875
+
+[info 2019/07/28 18:03:37.954 CDT locator <main> tid=0x1] This member, 172.17.0.1(locator:5339:locator):10875, is becoming group coordinator.
+
+[info 2019/07/28 18:03:37.958 CDT locator <main> tid=0x1] Entered into membership with ID 172.17.0.1(locator:5339:locator)<v0>:10875.
+
+[info 2019/07/28 18:03:37.959 CDT locator <main> tid=0x1] Starting DistributionManager 172.17.0.1(locator:5339:locator)<v0>:10875.  (took 12206/ ms)
+
+[info 2019/07/28 18:03:37.960 CDT locator <main> tid=0x1] Initial (membershipManager) view =  [172.17.0.1(locator:5339:locator)<v0>:10875]
+
+[info 2019/07/28 18:03:37.960 CDT locator <main> tid=0x1] Admitting member <172.17.0.1(locator:5339:locator)<v0>:10875>. Now there are 1 non-admin member(s).
+
+[info 2019/07/28 18:03:37.961 CDT locator <main> tid=0x1] 172.17.0.1(locator:5339:locator)<v0>:10875 is the elder and the only member.
+
+[info 2019/07/28 18:03:37.965 CDT locator <main> tid=0x1] Did not hear back from any other system. I am the first one.
+
+[info 2019/07/28 18:03:37.990 CDT locator <main> tid=0x1] Creating cache for locator.
+
+[info 2019/07/28 18:03:38.200 CDT locator <main> tid=0x1] Initializing region _monitoringRegion_172.17.0.1<v0>10875
+
+[info 2019/07/28 18:03:38.203 CDT locator <main> tid=0x1] Initialization of region _monitoringRegion_172.17.0.1<v0>10875 completed
+
+[info 2019/07/28 18:03:39.301 CDT locator <main> tid=0x1] SharedConfigStatusRequestHandler installed
+
+[info 2019/07/28 18:03:39.302 CDT locator <main> tid=0x1] Locator started on  172.17.0.1[10334]
+
+[info 2019/07/28 18:03:39.304 CDT locator <main> tid=0x1] Starting server location for Distribution Locator on 172.17.0.1[10334]
+
+[info 2019/07/28 18:03:39.419 CDT locator <Pooled Message Processor 1> tid=0x57] Created disk store cluster_config with unique id 9edc445401ac430f-ab19c27230863820
+
+[info 2019/07/28 18:03:39.435 CDT locator <Pooled Message Processor 1> tid=0x57] recovery region initialization took 2 ms
+
+[info 2019/07/28 18:03:39.467 CDT locator <Pooled Message Processor 1> tid=0x57] Created oplog#1 drf for disk store cluster_config.
+
+[info 2019/07/28 18:03:39.471 CDT locator <Pooled Message Processor 1> tid=0x57] Created oplog#1 crf for disk store cluster_config.
+
+[warning 2019/07/28 18:03:39.475 CDT locator <Pooled Message Processor 1> tid=0x57] Creating persistent region _ConfigurationRegion, but enable-network-partition-detection is set to false. Running with network partition detection disabled can lead to an unrecoverable system in the event of a network split.
+
+[info 2019/07/28 18:03:39.476 CDT locator <Pooled Message Processor 1> tid=0x57] Initializing region _ConfigurationRegion
+
+[info 2019/07/28 18:03:39.478 CDT locator <Pooled Message Processor 1> tid=0x57] Region /_ConfigurationRegion was created on this member with the persistent id /172.17.0.1:/home/wsangel/Documentos/workspace/gitHub/mike/spring-data-gemfire/locator/ConfigDiskDir_locator created at timestamp 1564355019475 version 0 diskStoreId 9edc445401ac430f-ab19c27230863820 name locator.
+
+[info 2019/07/28 18:03:39.484 CDT locator <Pooled Message Processor 1> tid=0x57] Initialization of region _ConfigurationRegion completed
+
+[info 2019/07/28 18:03:39.508 CDT locator <Pooled Message Processor 1> tid=0x57] Completed writing the shared configuration to 'cluster_config' directory
+
+[info 2019/07/28 18:03:39.508 CDT locator <Pooled Message Processor 1> tid=0x57] Getting Jar files from other locators
+
+[info 2019/07/28 18:03:39.508 CDT locator <Pooled Message Processor 1> tid=0x57] No other locators present
+
+[info 2019/07/28 18:03:39.511 CDT locator <Pooled Message Processor 1> tid=0x57] ConfigRequestHandler installed
+
+[info 2019/07/28 18:03:39.511 CDT locator <Pooled Message Processor 1> tid=0x57] Cluster configuration service start up completed successfully and is now running ....
+
+[info 2019/07/28 18:03:39.986 CDT locator <locator request thread[1]> tid=0x2e] Logging initialized @20483ms
+
+[info 2019/07/28 18:03:40.315 CDT locator <locator request thread[1]> tid=0x2e] jetty-9.2.13.v20150730
+
+[info 2019/07/28 18:03:41.172 CDT locator <locator request thread[1]> tid=0x2e] NO JSP Support for /gemfire, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+[info 2019/07/28 18:03:42.803 CDT locator <locator request thread[1]> tid=0x2e] Initializing Spring FrameworkServlet 'gemfire'
+
+[info 2019/07/28 18:03:42.804 CDT locator <locator request thread[1]> tid=0x2e] FrameworkServlet 'gemfire': initialization started
+
+[info 2019/07/28 18:03:42.819 CDT locator <locator request thread[1]> tid=0x2e] Refreshing WebApplicationContext for namespace 'gemfire-servlet': startup date [Sun Jul 28 18:03:42 CDT 2019]; root of context hierarchy
+
+[info 2019/07/28 18:03:42.910 CDT locator <locator request thread[1]> tid=0x2e] Loading XML bean definitions from ServletContext resource [/WEB-INF/gemfire-servlet.xml]
+
+[info 2019/07/28 18:03:44.118 CDT locator <locator request thread[1]> tid=0x2e] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3eb9137c: defining beans [functionController,deployController,memberController,durableClientController,dataController,miscellaneousController,pdxController,diskStoreController,configController,regionController,queueController,clientController,clusterController,wanController,indexController,launcherLifecycleController,shellController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,asyncTaskExecutor,multipartResolver,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.handler.MappedInterceptor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+
+[info 2019/07/28 18:03:44.591 CDT locator <locator request thread[1]> tid=0x2e] Initializing ExecutorService  'asyncTaskExecutor'
+
+[info 2019/07/28 18:03:44.695 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/functions],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.FunctionCommandsController.listFunctions(java.lang.String[],java.lang.String[],java.lang.String)
+
+[info 2019/07/28 18:03:44.696 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/functions/{id}],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> com.gemstone.gemfire.management.internal.web.controllers.FunctionCommandsController.executeFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String[],java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.696 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/functions/{id}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.FunctionCommandsController.destroyFunction(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.698 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/deployed],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DeployCommandsController.undeploy(java.lang.String[],java.lang.String[])
+
+[info 2019/07/28 18:03:44.698 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/deployed],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DeployCommandsController.listDeployed(java.lang.String[])
+
+[info 2019/07/28 18:03:44.699 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/deployed],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DeployCommandsController.deploy(org.springframework.web.multipart.MultipartFile[],java.lang.String[],java.lang.String,java.lang.String) throws java.io.IOException
+
+[info 2019/07/28 18:03:44.700 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/members/{name}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.MemberCommandsController.describeMember(java.lang.String)
+
+[info 2019/07/28 18:03:44.701 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/members],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.MemberCommandsController.listMembers(java.lang.String)
+
+[info 2019/07/28 18:03:44.703 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/durable-clients/{durable-client-id}/cqs],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DurableClientCommandsController.listDurableClientContinuousQueries(java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2019/07/28 18:03:44.703 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/durable-clients/{durable-client-id}/cqs/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DurableClientCommandsController.countDurableClientContinuousQueryEvents(java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2019/07/28 18:03:44.703 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/durable-clients/{durable-client-id}/cqs/{durable-cq-name}/events],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DurableClientCommandsController.countDurableClientContinuousQueryEvents(java.lang.String,java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2019/07/28 18:03:44.704 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/durable-clients/{durable-client-id}/cqs/{durable-cq-name}],methods=[POST],params=[op=close],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DurableClientCommandsController.closeDurableContinuousQuery(java.lang.String,java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2019/07/28 18:03:44.704 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/durable-clients/{durable-client-id}],methods=[POST],params=[op=close],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DurableClientCommandsController.closeDurableClient(java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2019/07/28 18:03:44.706 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/regions/data],methods=[POST],params=[op=rebalance],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> com.gemstone.gemfire.management.internal.web.controllers.DataCommandsController.rebalance(java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Long)
+
+[info 2019/07/28 18:03:44.707 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/members/{member}/regions/{region}/data],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> com.gemstone.gemfire.management.internal.web.controllers.DataCommandsController.exportData(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.707 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/members/{member}/regions/{region}/data],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> com.gemstone.gemfire.management.internal.web.controllers.DataCommandsController.importData(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.707 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/regions/{region}/data/location],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DataCommandsController.locateEntry(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2019/07/28 18:03:44.708 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/regions/{region}/data],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DataCommandsController.remove(java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.708 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/regions/{region}/data],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DataCommandsController.get(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2019/07/28 18:03:44.709 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/regions/{region}/data],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DataCommandsController.put(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2019/07/28 18:03:44.709 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/regions/data/query],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> com.gemstone.gemfire.management.internal.web.controllers.DataCommandsController.query(org.springframework.web.context.request.WebRequest,java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2019/07/28 18:03:44.712 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/deadlocks],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.MiscellaneousCommandsController.showDeadLock(java.lang.String)
+
+[info 2019/07/28 18:03:44.713 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/stacktraces],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.MiscellaneousCommandsController.exportStackTraces(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.713 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/groups/{groups}/loglevel],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.MiscellaneousCommandsController.changeLogLevelForGroups(java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.714 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/members/{members}/loglevel],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.MiscellaneousCommandsController.changeLogLevelForMembers(java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.714 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/members/{members}/groups/{groups}/loglevel],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.MiscellaneousCommandsController.changeLogLevelForMembersAndGroups(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.715 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/members/{member}/log],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.MiscellaneousCommandsController.showLog(java.lang.String,java.lang.Integer)
+
+[info 2019/07/28 18:03:44.715 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/metrics],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.MiscellaneousCommandsController.showMetrics(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2019/07/28 18:03:44.715 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/netstat],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.MiscellaneousCommandsController.netstat(java.lang.String[],java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2019/07/28 18:03:44.716 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/logs],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> com.gemstone.gemfire.management.internal.web.controllers.MiscellaneousCommandsController.exportLogs(java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean,java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.716 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/shutdown],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.MiscellaneousCommandsController.shutdown(java.lang.Integer)
+
+[info 2019/07/28 18:03:44.716 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/gc],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.MiscellaneousCommandsController.gc(java.lang.String[])
+
+[info 2019/07/28 18:03:44.717 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/members/{member}/gc],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.MiscellaneousCommandsController.gc(java.lang.String)
+
+[info 2019/07/28 18:03:44.718 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/pdx],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.PdxCommandsController.configurePdx(java.lang.Boolean,java.lang.Boolean,java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2019/07/28 18:03:44.718 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/pdx/type],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.PdxCommandsController.pdxRename(java.lang.String,java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2019/07/28 18:03:44.721 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/diskstores/missing],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DiskStoreCommandsController.showMissingDiskStores()
+
+[info 2019/07/28 18:03:44.721 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/diskstores/{name}],methods=[POST],params=[op=compact],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> com.gemstone.gemfire.management.internal.web.controllers.DiskStoreCommandsController.compactDiskStore(java.lang.String,java.lang.String[])
+
+[info 2019/07/28 18:03:44.722 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/diskstores],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DiskStoreCommandsController.listDiskStores()
+
+[info 2019/07/28 18:03:44.722 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/diskstores],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DiskStoreCommandsController.createDiskStore(java.lang.String,java.lang.String[],java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Long,java.lang.Integer,java.lang.Float,java.lang.Integer,java.lang.String[])
+
+[info 2019/07/28 18:03:44.723 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/diskstores/{name}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DiskStoreCommandsController.describeDiskStore(java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.723 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/diskstores/{id}],methods=[POST],params=[op=revoke],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DiskStoreCommandsController.revokeMissingDiskStore(java.lang.String)
+
+[info 2019/07/28 18:03:44.723 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/diskstores/{name}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.DiskStoreCommandsController.destroyDiskStore(java.lang.String,java.lang.String[])
+
+[info 2019/07/28 18:03:44.724 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/diskstores],methods=[POST],params=[op=backup],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> com.gemstone.gemfire.management.internal.web.controllers.DiskStoreCommandsController.backupDiskStore(java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.726 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/members/{member}/config],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.ConfigCommandsController.describeConfig(java.lang.String,java.lang.Boolean)
+
+[info 2019/07/28 18:03:44.726 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/config],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.ConfigCommandsController.alterRuntime(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)
+
+[info 2019/07/28 18:03:44.727 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/services/cluster-config],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.ConfigCommandsController.statusClusterConfig()
+
+[info 2019/07/28 18:03:44.727 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/config/cluster],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> com.gemstone.gemfire.management.internal.web.controllers.ConfigCommandsController.exportClusterConfig(java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.727 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/config/cluster],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> com.gemstone.gemfire.management.internal.web.controllers.ConfigCommandsController.importClusterConfig(org.springframework.web.multipart.MultipartFile[],java.lang.String) throws java.io.IOException
+
+[info 2019/07/28 18:03:44.728 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/config],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> com.gemstone.gemfire.management.internal.web.controllers.ConfigCommandsController.exportConfig(java.lang.String[],java.lang.String[],java.lang.String)
+
+[info 2019/07/28 18:03:44.729 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/regions],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.RegionCommandsController.createRegion(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],java.lang.Boolean,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean,java.lang.Boolean,java.lang.String[],java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Long,java.lang.Integer,java.lang.Long,java.lang.Long,java.lang.Integer,java.lang.String)
+
+[info 2019/07/28 18:03:44.729 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/regions/{name}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.RegionCommandsController.destroyRegion(java.lang.String)
+
+[info 2019/07/28 18:03:44.729 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/regions],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.RegionCommandsController.listRegions(java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.729 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/regions/{name}],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.RegionCommandsController.alterRegion(org.springframework.web.context.request.WebRequest,java.lang.String,java.lang.String[],java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Integer)
+
+[info 2019/07/28 18:03:44.730 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/regions/{name}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.RegionCommandsController.describeRegion(java.lang.String)
+
+[info 2019/07/28 18:03:44.730 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/async-event-queues],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.QueueCommandsController.createAsyncEventQueue(java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Boolean,java.lang.String,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String[],java.lang.String)
+
+[info 2019/07/28 18:03:44.731 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/async-event-queues],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.QueueCommandsController.listAsyncEventQueues()
+
+[info 2019/07/28 18:03:44.732 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/clients],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.ClientCommandsController.listClients()
+
+[info 2019/07/28 18:03:44.732 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/clients/{clientID}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.ClientCommandsController.describeClient(java.lang.String)
+
+[info 2019/07/28 18:03:44.733 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/cluster],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.ClusterCommandsController.statusSystem()
+
+[info 2019/07/28 18:03:44.736 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/gateways],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.WanCommandsController.listGateways(java.lang.String[],java.lang.String[])
+
+[info 2019/07/28 18:03:44.736 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/gateways/receivers],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.WanCommandsController.statusGatewayReceivers(java.lang.String[],java.lang.String[])
+
+[info 2019/07/28 18:03:44.736 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/gateways/senders/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.WanCommandsController.statusGatewaySenders(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2019/07/28 18:03:44.737 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/gateways/senders/{id}],methods=[POST],params=[op=pause],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.WanCommandsController.pauseGatewaySender(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2019/07/28 18:03:44.737 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/gateways/senders/{id}],methods=[POST],params=[op=resume],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.WanCommandsController.resumeGatewaySender(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2019/07/28 18:03:44.737 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/gateways/senders/{id}],methods=[POST],params=[op=stop],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.WanCommandsController.stopGatewaySender(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2019/07/28 18:03:44.738 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/gateways/senders],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.WanCommandsController.createGatewaySender(java.lang.String,java.lang.Integer,java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Boolean,java.lang.String,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2019/07/28 18:03:44.738 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/gateways/senders],methods=[POST],params=[op=start],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.WanCommandsController.startGatewaySender(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2019/07/28 18:03:44.738 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/gateways/receivers],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.WanCommandsController.createGatewayReceiver(java.lang.String[],java.lang.Boolean,java.lang.String[],java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String[])
+
+[info 2019/07/28 18:03:44.738 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/gateways/senders/{id}],methods=[POST],params=[op=load-balance],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.WanCommandsController.loadBalanceGatewaySender(java.lang.String)
+
+[info 2019/07/28 18:03:44.739 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/gateways/receivers],methods=[POST],params=[op=start],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.WanCommandsController.startGatewayReceiver(java.lang.String[],java.lang.String[])
+
+[info 2019/07/28 18:03:44.739 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/gateways/receivers],methods=[POST],params=[op=stop],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.WanCommandsController.stopGatewayReceiver(java.lang.String[],java.lang.String[])
+
+[info 2019/07/28 18:03:44.740 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/indexes],methods=[POST],params=[op=create-defined],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.IndexCommandsController.createDefinedIndexes(java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.741 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/indexes],methods=[POST],params=[op=define],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.IndexCommandsController.defineIndex(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.741 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/indexes],methods=[DELETE],params=[op=clear-defined],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.IndexCommandsController.clearDefinedIndexes()
+
+[info 2019/07/28 18:03:44.741 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/indexes],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.IndexCommandsController.destroyIndexes(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.742 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/indexes],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.IndexCommandsController.createIndex(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.742 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/indexes/{name}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.IndexCommandsController.destroyIndex(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.742 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/indexes],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.IndexCommandsController.listIndex(java.lang.Boolean)
+
+[info 2019/07/28 18:03:44.744 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/members/{name}/locator],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.LauncherLifecycleCommandsController.statusLocator(java.lang.String)
+
+[info 2019/07/28 18:03:44.744 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/members/{name}/server],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.LauncherLifecycleCommandsController.statusServer(java.lang.String)
+
+[info 2019/07/28 18:03:44.746 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/version/full],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.ShellCommandsController.versionSimple()
+
+[info 2019/07/28 18:03:44.747 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/mbean/query],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.management.internal.web.controllers.ShellCommandsController.queryNames(com.gemstone.gemfire.management.internal.web.domain.QueryParameterSource)
+
+[info 2019/07/28 18:03:44.747 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/mbean/attribute],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.management.internal.web.controllers.ShellCommandsController.getAttribute(java.lang.String,java.lang.String)
+
+[info 2019/07/28 18:03:44.748 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/ping],methods=[GET || HEAD],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.gemstone.gemfire.management.internal.web.controllers.ShellCommandsController.ping()
+
+[info 2019/07/28 18:03:44.748 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/mbean/operation],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<?> com.gemstone.gemfire.management.internal.web.controllers.ShellCommandsController.invoke(java.lang.String,java.lang.String,java.lang.String[],java.lang.Object[])
+
+[info 2019/07/28 18:03:44.748 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/index],methods=[GET],params=[],headers=[],consumes=[],produces=[application/xml],custom=[]}" onto public com.gemstone.gemfire.management.internal.web.domain.LinkIndex com.gemstone.gemfire.management.internal.web.controllers.ShellCommandsController.index(java.lang.String)
+
+[info 2019/07/28 18:03:44.749 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/version],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.ShellCommandsController.version()
+
+[info 2019/07/28 18:03:44.749 CDT locator <locator request thread[1]> tid=0x2e] Mapped "{[/v1/management/commands],methods=[POST],params=[cmd],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.gemstone.gemfire.management.internal.web.controllers.ShellCommandsController.command(java.lang.String)
+
+[info 2019/07/28 18:03:44.925 CDT locator <locator request thread[1]> tid=0x2e] FrameworkServlet 'gemfire': initialization completed in 2121 ms
+
+[info 2019/07/28 18:03:44.925 CDT locator <locator request thread[1]> tid=0x2e] Started o.e.j.w.WebAppContext@3fa78ec0{/gemfire,file:/home/wsangel/Documentos/workspace/gitHub/mike/spring-data-gemfire/locator/GemFire_wsangel/services/http/0.0.0.0_7070_gemfire/webapp/,AVAILABLE}{/home/wsangel/toolsDeveloper/Pivotal_GemFire_821_b18207_Linux/tools/Extensions/gemfire.war}
+
+[info 2019/07/28 18:03:45.336 CDT locator <locator request thread[1]> tid=0x2e] NO JSP Support for /pulse, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+[info 2019/07/28 18:03:45.365 CDT locator <locator request thread[1]> tid=0x2e] Initializing Spring root WebApplicationContext
+
+[info 2019/07/28 18:03:47.616 CDT locator <locator request thread[1]> tid=0x2e] Initializing Spring FrameworkServlet 'mvc-dispatcher'
+
+[info 2019/07/28 18:03:47.850 CDT locator <locator request thread[1]> tid=0x2e] Started o.e.j.w.WebAppContext@369791b1{/pulse,file:/home/wsangel/Documentos/workspace/gitHub/mike/spring-data-gemfire/locator/GemFire_wsangel/services/http/0.0.0.0_7070_pulse/webapp/,AVAILABLE}{/home/wsangel/toolsDeveloper/Pivotal_GemFire_821_b18207_Linux/tools/Pulse/pulse.war}
+
+[info 2019/07/28 18:03:47.938 CDT locator <locator request thread[1]> tid=0x2e] Started ServerConnector@3b3c8c70{HTTP/1.1}{0.0.0.0:7070}
+
+[info 2019/07/28 18:03:47.939 CDT locator <locator request thread[1]> tid=0x2e] Started @28437ms
+
+[info 2019/07/28 18:05:07.587 CDT locator <RMI TCP Connection(4)-127.0.0.1> tid=0x6c] (tid=108 msgId=46) Executing list members
+
+[info 2019/07/28 18:05:38.942 CDT locator <ViewHandler> tid=0x6e] Membership: sending new view [[172.17.0.1(locator:5339:locator)<v0>:10875|1] [172.17.0.1(locator:5339:locator)<v0>:10875/55772, 172.17.0.1(server:5768)<v1>:23181/18619]] (2 mbrs)
+  
+
+[info 2019/07/28 18:05:39.109 CDT locator <UDP Incoming Message Handler> tid=0x28] Membership: received new view  [172.17.0.1(locator:5339:locator)<v0>:10875|1] [172.17.0.1(locator:5339:locator)<v0>:10875/55772, 172.17.0.1(server:5768)<v1>:23181/18619]
+
+[info 2019/07/28 18:05:39.109 CDT locator <UDP Incoming Message Handler> tid=0x28] Membership: lead member is now 172.17.0.1(server:5768)<v1>:23181
+
+[info 2019/07/28 18:05:39.123 CDT locator <FD_SOCK Ping thread> tid=0x70] GemFire failure detection is now monitoring 172.17.0.1(server:5768)<v1>:23181
+
+[info 2019/07/28 18:05:39.135 CDT locator <View Message Processor> tid=0x71] Membership: Processing addition < 172.17.0.1(server:5768)<v1>:23181 >
+
+[info 2019/07/28 18:05:39.135 CDT locator <View Message Processor> tid=0x71] Admitting member <172.17.0.1(server:5768)<v1>:23181>. Now there are 2 non-admin member(s).
+
+[info 2019/07/28 18:05:39.147 CDT locator <pool-3-thread-1> tid=0x73] Initializing region _monitoringRegion_172.17.0.1<v1>23181
+
+[info 2019/07/28 18:05:39.416 CDT locator <Pooled High Priority Message Processor 1> tid=0x79] Member 172.17.0.1(server:5768)<v1>:23181 is equivalent or in the same redundancy zone.
+
+[info 2019/07/28 18:05:39.473 CDT locator <pool-3-thread-1> tid=0x73] Initialization of region _monitoringRegion_172.17.0.1<v1>23181 completed
+
+[info 2019/07/28 18:05:39.484 CDT locator <pool-3-thread-1> tid=0x73] Initializing region _notificationRegion_172.17.0.1<v1>23181
+
+[info 2019/07/28 18:05:39.486 CDT locator <pool-3-thread-1> tid=0x73] Initialization of region _notificationRegion_172.17.0.1<v1>23181 completed
+
+[info 2019/07/28 18:05:41.028 CDT locator <locator request thread[1]> tid=0x2e] Received request for configuration  : ConfigurationRequest for groups : 
+   cluster[cluster]
+
+[info 2019/07/28 18:05:41.030 CDT locator <locator request thread[1]> tid=0x2e] Building up configuration response with following configurations: [cluster]
+
+[info 2019/07/28 18:06:00.955 CDT locator <RMI TCP Connection(4)-127.0.0.1> tid=0x6c] (tid=108 msgId=47) Executing create region --name=region --type=REPLICATE
+
+[info 2019/07/28 18:06:03.355 CDT locator <RMI TCP Connection(4)-127.0.0.1> tid=0x6c] Configuration change successful
+
+[info 2019/07/28 18:06:10.331 CDT locator <RMI TCP Connection(4)-127.0.0.1> tid=0x6c] (tid=108 msgId=48) Executing list members
+
+[info 2019/07/28 18:06:19.807 CDT locator <RMI TCP Connection(4)-127.0.0.1> tid=0x6c] (tid=108 msgId=49) Executing list regions
+
+[info 2019/07/28 18:26:00.892 CDT locator <RMI TCP Connection(4)-127.0.0.1> tid=0x6c] (tid=108 msgId=50) Executing create region --name=customer --type=REPLICATE
+
+[info 2019/07/28 18:26:01.890 CDT locator <RMI TCP Connection(4)-127.0.0.1> tid=0x6c] Configuration change successful
+
+[info 2019/07/28 18:26:08.098 CDT locator <RMI TCP Connection(4)-127.0.0.1> tid=0x6c] (tid=108 msgId=51) Executing list regions
+
+[info 2019/07/28 18:26:11.935 CDT locator <RMI TCP Connection(4)-127.0.0.1> tid=0x6c] (tid=108 msgId=52) Executing list regions
+
+[info 2019/07/28 18:26:13.021 CDT locator <RMI TCP Connection(4)-127.0.0.1> tid=0x6c] (tid=108 msgId=53) Executing list regions
+
+[info 2019/07/28 18:26:13.986 CDT locator <RMI TCP Connection(4)-127.0.0.1> tid=0x6c] (tid=108 msgId=54) Executing list regions

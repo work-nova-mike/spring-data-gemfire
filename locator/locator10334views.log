@@ -1,0 +1,6 @@
+
+[info 2019/07/28 18:03:39.304 CDT <main> tid=0x1] Log opened with new distributed system connection.  View(creator=172.17.0.1(locator:5339:locator)<v0>:10875, viewId=0, [172.17.0.1(locator:5339:locator)<v0>:10875])
+
+[info 2019/07/28 18:05:39.140 CDT <DM-MemberEventInvoker> tid=0x22] A new member joined: 172.17.0.1(server:5768)<v1>:23181.  View(creator=172.17.0.1(locator:5339:locator)<v0>:10875, viewId=1, [172.17.0.1(locator:5339:locator)<v0>:10875, 172.17.0.1(server:5768)<v1>:23181])
+
+[info 2019/07/28 18:05:41.084 CDT <Pooled High Priority Message Processor 1> tid=0x79] server summary: 1 cache servers with 0 client connections/current cache servers : 172.17.0.1(server:5768)<v1>:23181 

@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "6d1d7c05-c12e-41a5-bada-36f2e3236d3d",
+		"name": "GemFire",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/saveCustomer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":1,\n\t\"firstname\":\"angel\",\n\t\"lastname\":\"martinez\",\n\t\"emailAddress\":\"derek@hotmail.com\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/saveCustomer",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"saveCustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/recoverAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/recoverAll",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"recoverAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/recoverById/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/recoverById/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"recoverById",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/recoverByFirstName/Angel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/recoverByFirstName/Angel",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"recoverByFirstName",
+						"Angel"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
